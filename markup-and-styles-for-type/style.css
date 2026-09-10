@@ -1,0 +1,60 @@
+html {
+  color: gray;
+  font-family: "Roboto Condensed", Arial, Helvetica, sans-serif;
+  font-size: 15pt;
+}
+
+body {
+  margin: 10%;
+}
+
+article {
+  margin: 6rem 0;
+}
+
+section {
+  margin: 2.5em 0;
+}
+
+h1 {
+  font-family: vista-slab, Georgia, serif;
+  color: black;
+  letter-spacing: -0.02em;
+  text-transform: capitalize;
+  text-indent: -1rem;
+}
+
+p {
+  font-size: 13pt;
+  line-height: 1.4;
+}
+
+sup {
+  font-size: 60%;
+}
+
+dfn {
+  font-weight: bold;
+  text-transform: lowercase;
+}
+
+small {
+  font-style: italic;
+}
+
+code {
+  color: steelblue;
+}
+
+a {
+  text-decoration: none;
+}
+
+aside {
+  text-align: center;
+}
+
+cite {
+  display: block;
+  text-align: right;
+}
