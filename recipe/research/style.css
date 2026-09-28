@@ -69,7 +69,8 @@ figcaption {
   margin-top: 8px;
 }
 
-.small {
+.url,
+.source {
   font-size: 15px;
   color: #7d7368;
 }
