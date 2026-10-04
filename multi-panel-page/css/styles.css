@@ -1,0 +1,132 @@
+body {
+	margin: 0;
+	font-family: "Archivo Narrow", sans-serif;
+	font-size: 18px;
+	line-height: 1.4;
+}
+
+.content-column {
+	width: 960px;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3 {
+	margin: 0;
+}
+
+header {
+	height: 480px;
+	box-sizing: border-box;
+	padding-top: 160px;
+	text-align: center;
+	color: white;
+	background-image: linear-gradient(rgba(10, 30, 40, 0.35), rgba(10, 30, 40, 0.35)), url(../images/header-waves.jpg);
+	background-size: cover;
+	background-position: center;
+}
+
+header h1 {
+	font-size: 80px;
+	line-height: 1.15;
+}
+
+header h2 {
+	font-size: 29.7px;
+	margin-top: 5px;
+}
+
+section {
+	padding: 40px 0 50px 0;
+}
+
+section h2 {
+	font-size: 39px;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.feature {
+	padding-bottom: 39px;
+	color: white;
+	background-color: #14313c;
+}
+
+.photo {
+	float: right;
+	width: 400px;
+	height: 300px;
+	border: 1px solid white;
+	margin-left: 40px;
+	margin-bottom: 40px;
+}
+
+.feature p {
+	margin: 0 0 17px 0;
+}
+
+.gallery {
+	padding-bottom: 63px;
+	color: #4d463e;
+	background-color: #f2ede4;
+}
+
+.gallery ul {
+	list-style: none;
+	margin: 32px 0 0 0;
+	padding: 0;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	row-gap: 24px;
+}
+
+.gallery li {
+	min-height: 150px;
+}
+
+.gallery img {
+	float: left;
+	width: 200px;
+	height: 150px;
+}
+
+.gallery h3,
+.gallery p {
+	margin-left: 212px;
+}
+
+.gallery h3 {
+	font-size: 20px;
+	padding-top: 1px;
+}
+
+.gallery p {
+	margin-top: 6px;
+	margin-bottom: 0;
+	width: 220px;
+	color: #6b6258;
+}
+
+.closing {
+	padding-bottom: 101px;
+	color: white;
+	background-color: #2a6d70;
+	text-align: center;
+}
+
+.closing p {
+	width: 720px;
+	margin: 0 auto;
+	font-size: 26px;
+}
+
+footer {
+	color: white;
+	background-color: #283235;
+	padding: 40px 0;
+}
+
+footer p {
+	margin: 0;
+}
